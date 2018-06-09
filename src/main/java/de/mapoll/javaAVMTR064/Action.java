@@ -20,6 +20,14 @@
  ***********************************************************************************************************************/
 package de.mapoll.javaAVMTR064;
 
+import de.mapoll.javaAVMTR064.beans.ActionType;
+import de.mapoll.javaAVMTR064.beans.ArgumentType;
+import de.mapoll.javaAVMTR064.beans.ServiceType;
+import de.mapoll.javaAVMTR064.beans.StateVariableType;
+import org.apache.http.HttpEntity;
+import org.apache.http.entity.StringEntity;
+
+import javax.xml.soap.*;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -27,28 +35,7 @@ import java.lang.reflect.Type;
 import java.sql.Date;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
-
-import javax.xml.soap.MessageFactory;
-import javax.xml.soap.SOAPBody;
-import javax.xml.soap.SOAPBodyElement;
-import javax.xml.soap.SOAPEnvelope;
-import javax.xml.soap.SOAPException;
-import javax.xml.soap.SOAPMessage;
-import javax.xml.soap.SOAPPart;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.entity.StringEntity;
-
-import de.mapoll.javaAVMTR064.beans.ActionType;
-import de.mapoll.javaAVMTR064.beans.ArgumentType;
-import de.mapoll.javaAVMTR064.beans.ServiceType;
-import de.mapoll.javaAVMTR064.beans.StateVariableType;
+import java.util.*;
 
 public class Action {
 
