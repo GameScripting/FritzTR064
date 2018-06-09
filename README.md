@@ -2,6 +2,14 @@
 
 Java-library to communicate with the AVM FritzBox by using the TR-064 protocol.
 
+## Installation
+
+Use Jitpack:
+https://jitpack.io/#GameScripting/FritzTR064/
+
+    compile 'com.github.GameScripting:FritzTR064:v1.0'
+
+
 ## Dependencies
 
 This library depends on:
